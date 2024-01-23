@@ -1,3 +1,7 @@
+# Description
+
+Homework Source Project for DRI NSU based on [EvoCalendar](https://github.com/edlynvillegas/evo-calendar) project by edlynvillegas.
+
 MIT License
 
 Copyright (c) 2024 703lovelost
