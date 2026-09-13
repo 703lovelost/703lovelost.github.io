@@ -1,0 +1,57 @@
+site_name: Алексей Спиркин
+site_url: https://703lovelost.github.io/
+site_author: Aleksey Spirkin
+site_description: >
+  Теория вероятностей и математическая статистика,
+  разработка AI-систем и исследования в области искусственного интеллекта.
+
+theme:
+  name: material
+  language: ru
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: lovelost-light
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: lovelost-dark
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+  - Обо мне: about.md
+  - Преподавание:
+      - teaching/index.md
+  - Решения на базе ИИ:
+      - ai-engineering/index.md
+  - Исследования:
+      - research/index.md
+  - Контакты: contacts.md
+
+markdown_extensions:
+  - toc:
+      permalink: false
+      separator: "_"
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - stylesheets/extra.css

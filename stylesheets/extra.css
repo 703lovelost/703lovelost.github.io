@@ -1,0 +1,116 @@
+[data-md-color-scheme="lovelost-dark"] {
+  /* Background */
+  --md-default-bg-color: #101713;
+
+  /* Main text */
+  --md-default-fg-color: #E4E9E5;
+  --md-default-fg-color--light: rgba(228, 233, 229, 0.75);
+  --md-default-fg-color--lighter: rgba(228, 233, 229, 0.50);
+  --md-default-fg-color--lightest: rgba(228, 233, 229, 0.15);
+
+  /* Header */
+  --md-primary-fg-color: #39715F;
+  --md-primary-fg-color--light: #4D8A75;
+  --md-primary-fg-color--dark: #294F43;
+
+  --md-primary-bg-color: #FFFFFF;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.75);
+
+  /* Links / accents */
+  --md-accent-fg-color: #77BFA7;
+  --md-typeset-a-color: #73BBA5;
+
+  /* Code */
+  --md-code-bg-color: #19231F;
+  --md-code-fg-color: #E7ECE9;
+
+  /* Admonitions / separators */
+  --md-typeset-table-color: rgba(255, 255, 255, 0.12);
+}
+
+
+/* Основной текст страницы */
+[data-md-color-scheme="lovelost-dark"] .md-typeset {
+  color: #E4E9E5;
+}
+
+
+/* Заголовки */
+[data-md-color-scheme="lovelost-dark"] .md-typeset h1,
+[data-md-color-scheme="lovelost-dark"] .md-typeset h2,
+[data-md-color-scheme="lovelost-dark"] .md-typeset h3,
+[data-md-color-scheme="lovelost-dark"] .md-typeset h4,
+[data-md-color-scheme="lovelost-dark"] .md-typeset h5,
+[data-md-color-scheme="lovelost-dark"] .md-typeset h6 {
+  color: #F1F4F2;
+}
+
+
+/* Обычный текст */
+[data-md-color-scheme="lovelost-dark"] .md-typeset p,
+[data-md-color-scheme="lovelost-dark"] .md-typeset li {
+  color: #D9E0DC;
+}
+
+
+/* Ссылки */
+[data-md-color-scheme="lovelost-dark"] .md-typeset a {
+  color: #73BBA5;
+}
+
+[data-md-color-scheme="lovelost-dark"] .md-typeset a:hover {
+  color: #9AD6C3;
+}
+
+
+/* Левое/правое меню */
+[data-md-color-scheme="lovelost-dark"] .md-nav__link {
+  color: rgba(228, 233, 229, 0.72);
+}
+
+[data-md-color-scheme="lovelost-dark"] .md-nav__link:hover,
+[data-md-color-scheme="lovelost-dark"] .md-nav__link--active {
+  color: #8ACBB6;
+}
+
+
+/* Breadcrumb / мелкий вторичный текст */
+[data-md-color-scheme="lovelost-dark"] .md-typeset small,
+[data-md-color-scheme="lovelost-dark"] .md-typeset figcaption {
+  color: rgba(228, 233, 229, 0.65);
+}
+
+
+/* Горизонтальные линии */
+[data-md-color-scheme="lovelost-dark"] .md-typeset hr {
+  border-color: rgba(228, 233, 229, 0.15);
+}
+
+
+/* Карточки */
+[data-md-color-scheme="lovelost-dark"] .role-card {
+  border-color: rgba(228, 233, 229, 0.12);
+  background: #151E1A;
+  color: #E4E9E5;
+}
+
+[data-md-color-scheme="lovelost-light"] {
+  --md-default-bg-color: #F5F4EF;
+
+  --md-default-fg-color: #17211D;
+  --md-default-fg-color--light: rgba(23, 33, 29, 0.72);
+  --md-default-fg-color--lighter: rgba(23, 33, 29, 0.45);
+  --md-default-fg-color--lightest: rgba(23, 33, 29, 0.12);
+
+  --md-primary-fg-color: #39715F;
+  --md-primary-fg-color--light: #4F816F;
+  --md-primary-fg-color--dark: #214A3D;
+
+  --md-primary-bg-color: #FFFFFF;
+
+  --md-accent-fg-color: #397E82;
+  --md-typeset-a-color: #397E82;
+
+  --md-code-bg-color: #E9EAE4;
+  --md-code-fg-color: #17211D;
+}
